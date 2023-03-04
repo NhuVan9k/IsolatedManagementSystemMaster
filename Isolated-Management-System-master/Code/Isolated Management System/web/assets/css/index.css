@@ -1,0 +1,103 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+
+
+.body-container {
+}
+.thumb {
+    top:0;
+    left:0;
+    width: 100%;
+}
+.thumb__item {
+    position: relative;
+}
+.thumb-img {
+    width: 100%;
+    height: 500px;
+    animation: fade linear 0.4s; 
+}
+
+.thumb-message {
+    position: absolute;
+    background-color: #b8daff;
+    top: 50px;
+    left: 220px;
+    font-size: 3.2rem;
+    color: red;
+    font-weight: bold;
+}
+
+.thumb-message-info{
+    position: absolute;
+    font-size: 2.5rem;
+    background-color: #b8daff;
+    color: red;
+    top:100px;
+    left: 220px;
+}
+
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+.news {
+    width: 100%;
+    margin-top: 20px;
+    position: relative;
+}
+
+#news-label{
+    font-size: 2.4rem;
+    font-weight: 500;
+    margin: 0 auto;
+    width: 100px;
+    text-align: center;
+    display: block;
+}
+
+#news-label::after {
+    content: "";
+    width: 40px;
+    margin-top: 8px;
+    border-top: 3px solid #0000ff;
+    position: absolute;
+    top: 30px;
+    left: calc(50% - 20px);
+}
+
+#news-list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.news-item {
+    width: 30%;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.news-item img {
+    width: 100%;
+    height: 190px;
+}
+.news-item__label {
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--text-color);
+    
+}
+
+.news-item__time {
+    font-size: 1.4rem;
+    color: #007bff;
+}
+
+.news-item__info {
+    font-size:1.5rem;
+    font-weight: 300;
+}

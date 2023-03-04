@@ -1,0 +1,193 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+
+h1 {
+    color: yellow;
+}
+header {
+    background-image: linear-gradient(0, pink, red);
+}
+
+.header_one{
+    padding-top: 4px;
+    margin: 0 40px 0 40px;
+}
+
+#header_one-name{
+    color: var(--text-color);
+    font-size: 1.5rem;
+    font-weight: bold;
+    display:inline-block;
+}
+
+.user{
+    display: flex;
+    float:right;
+    width: 350px;
+    justify-content: space-around;
+}
+
+.user li a{
+    color: var(--text-color);
+    text-decoration: none;
+    opacity: 100%;
+}
+
+.user li a:hover{
+    opacity: 50%;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo a{
+    width: 200px;
+    margin: 0 auto;
+}
+
+
+.search{
+    display:flex;
+    align-items: center;
+    width: 1000px;
+    justify-content: flex-start;
+    position: relative;
+
+}
+.search__text {
+    color: var(--text-color);
+    width: 500px;
+    height: 40px;
+    padding: 12px 20px;
+    font-size: 1.5rem;
+    border: 1px solid rgba(0,0,0,0.6);
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    
+}
+
+.search button{
+    outline: none;
+    position: absolute;
+    color: #fff;
+    font-size: 2.3rem;
+    width: 70px;
+    height: 40px;
+    background: green;
+    
+    border: 1px solid rgba(0,0,0,0.6);
+    border-radius: 0 5px 5px 0;
+    text-decoration: none;
+    top: calc(50%-20px);
+}
+
+.search button:hover {
+    opacity: 80%;
+}
+
+.user {
+    display: flex;
+    font-size: 1.4rem;
+    color: var(--text-color);
+    justify-content: space-between;
+}
+
+#avatar-login {
+    width: 25px;
+}
+.user-heading{
+    position: relative;
+}
+
+.user-info::before {
+    content:"";
+    border-width: 20px 27px;
+    border-style: solid;
+    border-color:transparent transparent var(--white-color) transparent;
+    position: absolute;
+    right: 4px;
+    top: -29px;
+}
+
+.user-info::after {
+    content:"";
+    display:block;
+    position:absolute;
+    right:0;
+    top:-16px;
+    height:20px;
+    width: 65px;
+}
+
+.user-info {
+    position: absolute;
+    width: 150px;
+    top:118%;
+    right: 0px;
+    background-color: var(--white-color);
+    display: none;
+    transform-origin: 90% right;
+    animation: growthElement ease-in 0.2s;
+}
+
+.user-heading:hover .user-info{
+    display: block;
+}
+
+.user-info__list{}
+
+.user-info__item{
+    padding: 6px 12px;
+    color: var(--text-color);
+    font-size: 1.5rem;
+}
+
+.user-info__item:hover{
+    color: #476b6b;
+}
+
+.header_two{
+    margin-left: 30px;
+    display:flex;
+}
+
+#footer { 
+    font-size: 1.4rem;
+    margin: 0 auto;
+    background: red;
+    color: var(--white-color);
+    padding: 30px 0px;
+    width: 100%;
+}
+
+.footer_selects{
+    font-size: 2.1rem;
+    color: #8cff66;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.footer_links li a{
+    color: red;
+}
+
+.footer-icon{
+    font-size: 3rem;
+    color: #fff;
+}
+
+.footer-img {
+    width: 80%;
+}
+
+.footer-copyright{
+    margin: 0 auto;
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: #ffffff 1px solid;
+}

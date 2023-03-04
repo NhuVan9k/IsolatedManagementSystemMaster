@@ -1,0 +1,58 @@
+
+<%@page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
+<div style="clear: both"></div>
+
+<div id="footer" class="row">
+    <!-- First Column -->
+    <div class="col-3">
+        <h3 class="footer_selects">About us</h3>
+        We are very proud to announce that since 1999 we are very spreading awesomeness to our community and 
+        we have helped a lot of people to shape their better future and life! 
+        I hope we are doing best we can. If you have any kind of questions please call or contact us.
+    </div>
+    <!-- Second Column -->
+    <div class="col-3">
+        <h3 class="footer_selects">Contact details</h3>
+        <br/>
+        
+        <ul class="footer_links">
+            <li><i class="fas fa-map-marker-alt"></i> 1, Dai Co Viet, Hai Ba Trung, Hanoi</li>
+            <li><i class="fas fa-at"></i>hailhhe153224@fpt.edu.vn</li>
+            <li><i class="fas fa-phone-alt"></i> 0969719415 </li>
+        </ul>
+    </div>
+
+    <!-- Third Column -->
+    <div class="col-2">
+        <h3 class="footer_selects">Socialize</h3>
+        <br/>
+        <a href=https://www.facebook.com/hoanghai.luu.71/""><i class="fab fa-facebook-square footer-icon"></i></a>
+        <a href=""><i class="fab fa-instagram footer-icon"></i></a>
+        <a href=""><i class="fab fa-linkedin footer-icon"></i></a>
+    </div>
+    <!-- Fourth Column -->
+    <div class="col-4"><br/><br/>
+        <img class="footer-img" src="<%=request.getContextPath()%>/assets/img/footer/tg.jpg" />
+    </div>
+    <br/>
+    <div class="footer-copyright">
+        <i class="far fa-copyright"></i>
+        COPYRIGHT BY 2022. DESIGN & DEVELOPMENT BY TEAM 5
+    </div>
+</div>
+<!-- END footer -->
+<script src="<%=request.getContextPath()%>/assets/js/toast.js"></script>
+<c:if test="${not empty notify}">
+    <script>
+        toast({
+            title: "${notify.getTittle()}",
+            message: "${notify.getMessage()}",
+            type: "${notify.getType()}",
+            duration: ${notify.getDuration()}
+        });
+    </script>
+</c:if>
+
+</body>
+</html>

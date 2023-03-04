@@ -1,0 +1,152 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+
+
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 26, 2021, 4:43:53 PM
+    Author     : CHUNG
+*/
+
+
+
+.btn-add {
+    margin: 12px auto 12px 35px;
+    background-color: #A4FC5E;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    width:max-content;
+    padding: 0 8px;
+    border-radius: 4px;
+}
+
+.btn-add a {
+    font-size: 1.5rem;
+    color: var(--white-color);
+}
+.btn-add:hover {
+    background-color: #A7FC7E;
+}
+.btn-add:hover a{
+    text-decoration: none;
+}
+
+.table-list {
+    margin-left: 35px;
+}
+
+table, td, th {
+    border: 1px solid #c5c5c5;
+}
+
+table {
+    border-collapse: collapse;
+    
+}
+
+table tr:nth-child(odd){
+    background-color:#eee;
+}
+table tr:nth-child(even){
+    background-color:white;
+}
+table tr:nth-child(1){
+    background-color:skyblue;
+}
+
+.table-list__user {
+    width: 90%;
+    table-layout: fixed;
+}
+
+.table-list__user th{
+    font-size: 1.8rem;
+    font-weight: 500;
+    text-align: center;
+    height: 45px;
+    vertical-align: middle;
+}
+
+.table-list__user td{
+    font-size: 1.6rem;
+    font-weight: 400;
+    text-align: center;
+    height: 40px;
+    vertical-align: middle;
+}
+
+.td-action a{
+    background-color: #00AAFF;
+    color: var(--white-color);
+    padding: 3px 4px 4px 4px;
+    font-size: 1.6rem;
+    margin: auto 2px;
+    border-radius: 2px;
+}
+
+.td-action a:hover {
+    opacity: 40%;
+}
+
+.content-pad {
+    margin: 12px auto 12px 35px;
+    display: flex;
+    width: 88%;
+    justify-content: space-between;
+}
+
+.content-pad__label {
+    font-size: 1.4rem;
+    color: #999999;
+}
+
+.content-pad__info a{
+    font-size: 1.6rem;
+    color: var(--text-color);
+    text-align: center;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    margin: 0 1px;
+    border: 1px solid #808080;
+    vertical-align: middle;
+    
+}
+
+.content-pad__info a:hover {
+    background-color: #99c2ff;
+    text-decoration: none;
+    border: 1px solid #999999;
+    color: var(--white-color);
+}
+
+/* css cho trang search.jsp */
+.search_results {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 70px 20px 40px;
+    color: var(--black-color);
+    font-size: 2.2rem;
+    font-weight: 500;
+}
+
+.search_results-filter {
+    font-size: 1.7rem;
+}
+
+/* css cho page viewDonList */
+.btn-after {
+    display: block;
+    margin-bottom: 15px;
+    margin-left: 34px;
+    color: var(--text-color);
+    font-size : 1.5rem;
+}

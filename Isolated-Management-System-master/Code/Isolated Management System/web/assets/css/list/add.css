@@ -1,0 +1,105 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+
+.form-container {
+    margin: 24px 70px 24px 34px;
+    font-size: 1.6rem;
+    color: var(--text-color);
+    
+}
+
+.form-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-group {
+    display: block;
+    position: relative;
+    margin-bottom: 12px;
+}
+
+.form-group__special {
+    display: inline-block;
+}
+
+.form-group__special label {
+    color: blue;
+    font-size: 2rem;
+    font-weight: 500;
+}
+.form-label {
+    display: inline-block;
+}
+
+.form-control {
+    display: inline-block;
+    width: 450px;
+    position: absolute;
+    left: 150px;
+    top: 0;
+    font-size: 1.4rem;
+    outline: none;
+    border: 1px solid black;
+    
+}
+
+#phan_loai {
+    width: 80px;
+    margin-left: 12px;
+}
+
+.form-span {
+    color: #F2994A;
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 12px;
+    display: block;
+}
+
+.form-submit {
+    color: var(--white-color);
+    background-color: #2D9CDB;
+    border: none;
+    border-radius: 4px;
+    margin: 40px auto 12px auto;
+    display: block;
+    width: max-content;
+    padding: 4px 12px;
+    margin-left: 300px;
+}
+
+.form-submit span {
+    margin-left: 8px;
+}
+
+.form-submit:hover {
+    opacity: 85%; 
+}
+
+.content-one {
+    font-size: 2rem;
+    font-style: italic;
+    font-weight: 500;
+    color: red;
+    display: block;
+}
+.content-two {
+    font-size: 2rem;
+    font-weight: 500;
+    color: blue;
+    display: block;
+}
+
+.form-container_add {
+    justify-content: space-between;
+    display: flex;
+}
+
+.form-img {
+    width: 150px;
+    
+}

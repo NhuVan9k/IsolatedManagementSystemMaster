@@ -1,0 +1,97 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+
+
+.user-container {
+    width: 100%;
+    background-color: var(--white-color);
+    margin: 0;
+}
+
+.sidebar{
+    background-color: #f5f5f5;
+}
+
+.sidebar-li {
+    display: block;
+    padding: 6px 0;
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.sidebar-li:hover{
+    color: red;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#sidebar-avatar{
+    width: 120px;
+    margin: 12px auto 4px;
+    display: block;
+}
+
+.siderbar-nameuser {
+    font-weight: 500;
+    font-size: 2rem;
+    text-align: center;
+    display: block;
+        
+}
+
+.space {
+    margin: 6px auto 12px;
+    width: 50px;
+    border-top: 2px solid #000;
+}
+
+.sidebar-icon {
+    width: 20px;
+    text-align: center;
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 1.6rem;
+}
+
+.sidebar-info {
+    margin-left: 6px;
+    font-size: 1.6rem;
+    font-weight: 400;
+    
+}
+
+.active {
+    color: red;
+}
+
+.content {
+    
+}
+
+.content-label {
+    
+}
+
+.content-label__menu {
+    font-size: 2.4rem;
+    font-weight: 500;
+    margin: 40px auto 0px 35px;
+    display: block;
+}
+
+.content-label__info {
+    font-size: 1.8rem;
+    display:block;
+    margin: 12px auto 24px 35px;
+    font-weight: 400;
+    padding: 0;
+}
+
+.spacer2 {
+    margin: 0 auto;
+    width: 70%;
+    border-top: 2px solid #000;
+}
